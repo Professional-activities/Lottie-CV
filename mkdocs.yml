@@ -1,4 +1,4 @@
-site_name: obsidian-mkdocs template
+site_name: Research Data Management and Open Science
 
 theme:
     name: 'material'
@@ -7,7 +7,7 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue
+      primary: orange
       accent: dark blue
       toggle:
         icon: material/toggle-switch-off-outline
