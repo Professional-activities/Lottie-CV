@@ -1,4 +1,4 @@
-# Obsidian Notes
+# Table of contents will be linked here
 
 Publish your public notes with MkDocs
 
