@@ -1,18 +1,20 @@
-# Table of contents will be linked here
+# 📚 Table of contents
 
-Publish your public notes with MkDocs
+![Image by Nate Williams on Unsplash](attachments/Pasted%20image%2020240612165538.png) Source: [Nate Williams on Unsplash](https://unsplash.com/fr/@primalimagery)
 
-## What is Research Data Managemt?
-### A broad introduction 
-### Core values
-### RDM jargon 
-### Data stewards
+## 📍 What is Research Data Management?
+A broad introduction to RDM including core values; RDM vocabulary; data stewards
+[Go to lesson](https://lottieprv.github.io/RDM/What%20is%20RDM%3F/1.%20A%20broad%20introduction%20to%20Research%20Data%20Management/)
+
+---
+## 📍 Open Science in EU Policy 
+An introduction to Open Science for early career researchers (but not only!) with a focus on evolving EU policy in the past years.
+Go to lesson (tbd)
+
+---
+## 📍 Open Science (and RDM) in Horizon Europe Framework Programme 
+
+Dive into the Open Science requirements of the EU’s key funding programme for research and innovation: Horizon Europe.
+Go to lesson (tbd)
 
 
-
-~~
-~~~~The `index.md` in the `/docs` folder is the homepage you see here.~~
-
-~~The folders in `/docs` appear as the main sections on the navigation bar.~~
-
-~~The notes appear as pages within these sections. For example, [[Note 1]] in `Topic 1`~~
