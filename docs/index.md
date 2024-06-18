@@ -6,9 +6,7 @@
 
 A broad introduction to RDM including core values; RDM vocabulary; data steward
  
-[![Go to Lesson](https://img.shields.io/badge/Get-Started-black)](https://your-website-url/your-target-page) I  [![Download PDF](https://img.shields.io/badge/Download-PDF-red)](file:///Users/lottieprovost/Downloads/PDF%20-%201.%20A%20broad%20introduction%20to%20Research%20Data%20Management%20-%20Research%20Data%20Management%20and%20Open%20Science%20(1).pdf)
-
-
+[![Go to Lesson](https://img.shields.io/badge/Get-Started-black)](https://github.com/LottiePrv/RDM/blob/main/docs/1.%20What%20is%20RDM%3F/RDM%20intro.md) I  [![Download PDF](https://img.shields.io/badge/Download-PDF-red)](file:///Users/lottieprovost/Downloads/PDF%20-%201.%20A%20broad%20introduction%20to%20Research%20Data%20Management%20-%20Research%20Data%20Management%20and%20Open%20Science%20(1).pdf)
 
 ---
 ## 📍 Open Science in EU Policy 
