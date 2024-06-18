@@ -1,0 +1,1199 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../../2.%20Open%20Science%20and%20Open%20Access/Open%20Science%20in%20EC%20policy/">
+      
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../feed_rss_updated.xml">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.27">
+    
+    
+      
+        <title>RDM intro - Research Data Management and Open Science</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6543a935.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="yellow">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#a-broad-introduction-to-research-data-management" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Research Data Management and Open Science" class="md-header__button md-logo" aria-label="Research Data Management and Open Science" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Research Data Management and Open Science
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              RDM intro
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="yellow"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Research Data Management and Open Science" class="md-nav__button md-logo" aria-label="Research Data Management and Open Science" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Research Data Management and Open Science
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    📚 Table of contents
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    1. What is RDM?
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            1. What is RDM?
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    RDM intro
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    RDM intro
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#a-broad-introduction-to-research-data-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      A broad introduction to Research Data Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-do-we-talk-about-research-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why do we talk about research data?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#responsible-conduct-in-research-data-management-core-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      Responsible conduct in research data management: core values
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Responsible conduct in research data management: core values">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#research-integrity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Research integrity
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reproducibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reproducibility
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-management-vocabulary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data management vocabulary
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data management vocabulary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#research-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Research Data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#research-data-lifecycle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Research Data lifecycle
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fair-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAIR principles
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAIR principles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#findable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Findable
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accessible" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accessible
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interoperable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interoperable
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reusable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reusable
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Open Data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#research-data-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Research Data Management
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-stewards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data stewards
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    2. Open Science and Open Access
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            2. Open Science and Open Access
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2.%20Open%20Science%20and%20Open%20Access/Open%20Science%20in%20EC%20policy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Open Science in EC policy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    3. Open Science in Horizon Europe
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            3. Open Science in Horizon Europe
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3.%20Open%20Science%20in%20Horizon%20Europe/Open%20Science%20in%20the%20EU%27s%20EU%E2%80%99s%20key%20funding%20programme%20for%20research%20and%20innovation%2C%20Horizon%20Europe/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Open Science in the EU's EU’s key funding programme for research and innovation, Horizon Europe
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Features
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Features
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Features/LaTeX%20Math%20Support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LaTeX Math Support
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Features/Mermaid%20Diagrams/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mermaid Diagrams
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Features/Text%20Formatting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Text Formatting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Blog
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Blog
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Blog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Archive
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#a-broad-introduction-to-research-data-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      A broad introduction to Research Data Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-do-we-talk-about-research-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why do we talk about research data?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#responsible-conduct-in-research-data-management-core-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      Responsible conduct in research data management: core values
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Responsible conduct in research data management: core values">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#research-integrity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Research integrity
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reproducibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reproducibility
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-management-vocabulary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data management vocabulary
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data management vocabulary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#research-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Research Data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#research-data-lifecycle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Research Data lifecycle
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fair-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAIR principles
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAIR principles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#findable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Findable
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accessible" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accessible
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interoperable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interoperable
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reusable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reusable
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Open Data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#research-data-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Research Data Management
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-stewards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data stewards
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>RDM intro</h1>
+
+<h2 id="a-broad-introduction-to-research-data-management"><mark>A broad introduction to Research Data Management</mark><a class="headerlink" href="#a-broad-introduction-to-research-data-management" title="Permanent link">&para;</a></h2>
+<p>For a quick introduction, watch the following video: Ghent University Data Stewards (2020). <a href="https://www.youtube.com/watch?v=bbsLmy3Njv4">Knowledge clip: What is Research Data Management (RDM)?</a></p>
+<h2 id="why-do-we-talk-about-research-data">Why do we talk about research data?<a class="headerlink" href="#why-do-we-talk-about-research-data" title="Permanent link">&para;</a></h2>
+<p>Publications are just the visible output of research. Most of the work of scholarship happens within the vast amount of materials that underlie each publication: the research data.</p>
+<p><span style="background:#fff88f">This introduction explores ... XXX Add brief overview of the text here (exec summary)</span></p>
+<p><img alt="" src="https://lh7-us.googleusercontent.com/slidesz/AGV_vUfywmcaVgijZkzv0_NObtvYZWODwrf0pM7x_2AWpv2iaNers5At5tkNuW9Dd92COWWmASkz-K9DU8pMP2sE_TzVbelN_ZoIhpp1MzFco8d2Ilmzu-i3zscRRRBebItuQZkTuK4Y0LswxDoSfN7_Cm_KRn-yF0xsyXcnaEUR3syQww=s2048?key=HVeOlj_fJDZ5AEEcst6gsg" />
+Source: Noppe, N., Vanvelk, J., &amp; Callens, N. (2021). The hands-on guide to research data management for KU Leuven researchers, students, and research support staff in the humanities and social sciences. <a href="https://doi.org/10.5281/zenodo.4596323">Zenodo</a></p>
+<h2 id="responsible-conduct-in-research-data-management-core-values"><u>Responsible conduct in research data management: core values</u><a class="headerlink" href="#responsible-conduct-in-research-data-management-core-values" title="Permanent link">&para;</a></h2>
+<h3 id="research-integrity">Research integrity<a class="headerlink" href="#research-integrity" title="Permanent link">&para;</a></h3>
+<p>Research integrity means ensuring that all research is conducted in a way that is trustworthy and reliable. It applies to every field and discipline of research, and to all sectors in which research activities are performed.</p>
+<p>Research integrity covers all phases of the research process, from the initial idea and planning of a research project to carrying it out and sharing the results. Research integrity also involves ensuring that research environments and systems support and improve good research practices, often referred to as "research culture."</p>
+<p>Standards of conduct for scientific integrity are laid out in codes of conduct, such as:</p>
+<blockquote>
+<p><strong><a href="https://www.nwo.nl/en/netherlands-code-conduct-research-integrity">The Netherlands Code of Conduct for Research Integrity</a>, 2018</strong>
+"If scientific and scholarly research is to perform this role properly, research integrity is essential. Researchers who are not guided by the <strong>principles of honesty, scrupulousness, transparency, independence and responsibility</strong> risk harming both the quality and the trustworthiness of research."</p>
+<p><strong><a href="https://allea.org/wp-content/uploads/2023/06/European-Code-of-Conduct-Revised-Edition-2023.pdf">The European Code of Conduct for Research Integrity</a>, Revised edition 2023</strong>
+ “Good research practices are based on <strong>fundamental principles</strong> of research integrity. They <strong>guide individuals, institutions, and organisations</strong> in their work as well as in their engagement with the practical, ethical, and intellectual challenges inherent in research.”</p>
+</blockquote>
+<p><strong>These fundamental principles include:</strong> </p>
+<blockquote>
+<p><strong>Reliability</strong> 
+  in ensuring the quality of research which is reflected in the design, methodology, analysis and use of resources.</p>
+<p><strong>Honesty</strong> 
+  in developing, undertaking, reviewing, reporting and communicating research in a transparent, fair, full, and unbiased way.</p>
+<p><strong>Respect</strong>
+  for colleagues, research subjects, society, ecosystems, cultural heritage and the environment.</p>
+<p><strong>Accountability</strong>
+  for the research from idea to publication, for its management and organisation, for training, supervision and mentoring, and finally for its wider societal impacts.</p>
+</blockquote>
+<p>⭐️ In order to prevent research data from being invented, fabricated or falsified (intentionally manipulated or misinterpreted) and to stimulate reproducibility, a <strong>transparent researcher clarifies on what data he/she bases conclusions and how these data were collected.</strong> </p>
+<h3 id="reproducibility">Reproducibility<a class="headerlink" href="#reproducibility" title="Permanent link">&para;</a></h3>
+<p>Research is considered to be reproducible when researchers provide all the necessary data, metadata, software and computer scripts enabling the research to be reconstructed or making it possible to re-analyse the research data.</p>
+<blockquote>
+<p>[! Note]
+"Reproducibility means that research data and code are made available so that others are able to reach the same results as are claimed in scientific outputs" | <a href="[https://book.fosteropenscience.eu/en/02OpenScienceBasics/04ReproducibleResearchAndDataAnalysis.html](https://book.fosteropenscience.eu/en/02OpenScienceBasics/04ReproducibleResearchAndDataAnalysis.html)">The Open Science Training Book, 2018</a></p>
+</blockquote>
+<p>Setting up reproducible research requires extensive preparation in the planning phase. Research data which are not accurately managed risk not being reusable, which lowers the possibilities of reproducing the research itself. </p>
+<h2 id="data-management-vocabulary"><u>Data management vocabulary</u><a class="headerlink" href="#data-management-vocabulary" title="Permanent link">&para;</a></h2>
+<p>This section should clarify the meaning of some of most commonly used terms in research data management activities</p>
+<h3 id="research-data">Research Data<a class="headerlink" href="#research-data" title="Permanent link">&para;</a></h3>
+<p>The meaning of the research data heavily depends on the scientific discipline. Below are provided a few definitions which outline the main features and ways of considering research data. </p>
+<blockquote>
+<p><strong><a href="http://www.oecd.org/sti/inno/38500813.pdf">OECD</a>, 2007</strong>
+"Research data are the <strong>factual records</strong> (numerical scores, textual records, images and sounds) <strong>used as primary sources for scientific research</strong>, and that are commonly accepted in the scientific community as <strong>necessary to validate research findings</strong>. A research data set constitutes a systematic, partial representation of the subject being investigated." </p>
+<p><strong><a href="https://www.uu.nl/sites/default/files/university_policy_framework_for_research_data_utrecht_university_-_january_2016.pdf">Utrecht University</a>, 2016</strong>
+"Research data constitute <strong>primary research data</strong> (the raw, rough measurements or observation) and <strong>secondary research data</strong> (the results after the data have been processed by a researcher (recoded, combined, categorised, visualised, etc.))." </p>
+<p><strong><a href="http://hdl.handle.net/20.500.11755/a9539a60-ecef-4e62-a998-0fda190b303b">Van Berchum &amp; Grootveld</a>, 2017</strong>
+"Research data may be <strong>facts, observations, interviews, recordings, measurements, experiments, simulations and software</strong>; <strong>numerical, descriptive and visual</strong>; <strong>raw, cleaned up and processed</strong>; they <strong>may or may not support an actual or intended publication</strong>; and may be <strong>stored and exchanged in various formats on various storage media</strong>."</p>
+</blockquote>
+<p><strong>Research data can be:</strong> 
+- information collected or produced in the course of scientific activity. 
+- considered as evidence needed to validate research conclusions and results, and can be classified in various ways. 
+- different between raw/primary data, i.e. the direct result of measurement or collection, and secondary data, when reusing data produced by others.
+- numeric, textual, or multimedia, for instance, statistics, digital image collections, sound recordings, interview transcripts, etc. are considered data. </p>
+<p><strong>So when we talk about ‘research data’ we are using a generic term that can refer to a variety of information and contents, expressed in different formats, and that can be creative or factual in nature.</strong></p>
+<h3 id="research-data-lifecycle">Research Data lifecycle<a class="headerlink" href="#research-data-lifecycle" title="Permanent link">&para;</a></h3>
+<p>One of the ways of looking at research data is according to the phase of the research process, thinking about what you intend to do with the data in a structured manner. </p>
+<p>Following the research lifecycle model, the data lifecycle is used to represent how the various phases of the life of research and research data are combined, and how the choices made in one stage can affect the quality of data in another. </p>
+<p><img alt="" src="https://lh7-us.googleusercontent.com/slidesz/AGV_vUc7q_JqDuxS1nYB1usQYTazWi8I-f005NCUMZ3bM-wTmMJe0njdlwrvyX8xb62BVFO_CC5RSBV_AYao0S6FikoDiSiboSY6_wUMvz3G69qeYjCoo-6_MkhdJiBbAtOQSWaVJ96Yhw_9KFDjDHYj9JWMCjUduTyIkdXVuanWljH5DQ=s2048?key=HVeOlj_fJDZ5AEEcst6gsg" />Source: Gualandi, B., Caldoni, G., &amp; Marino, M. (2022). Research Data Management: Data Lifecycle. <a href="https://doi.org/10.5281/zenodo.7249051">Zenodo</a>. </p>
+<p><strong>Plan data management</strong>: description of the data that will be compiled, making clear how the data will be managed and made accessible throughout its lifetime. 
+<strong>Re-use</strong> and/or <strong>Collect data</strong>: corresponds to the data collection phase, and may include primary/raw and processed data 
+<strong>Analyse data</strong>: the phase in which you handle and work on your data 
+<strong>Store (and share) data</strong>: data is described appropriately, following standards when they exist. 
+<strong>Deposit data</strong>: ensure that data is accessible in the future, in particular that it is stored in such a way that others can use it, using a data repository and following FAIR principles.</p>
+<h3 id="fair-principles">FAIR principles<a class="headerlink" href="#fair-principles" title="Permanent link">&para;</a></h3>
+<p>The <a href="https://www.nature.com/articles/sdata201618">FAIR Guiding Principles for scientific data management and stewardship</a> are a set of principles for the management of research data which were defined by a group of stakeholders from academia, industry, funding agencies, and scholarly publishers between 2014 and 2016. 
+The principles describe how data should be managed in order to be <strong>FAIR: Findable, Accessible, Interoperable and Reusable.</strong> FAIR Data is therefore data which has these four characteristics and has been identified by the <a href="https://openscience.eu/open-science-policy-platform-final-report">European Commission</a> as one of the eight pillars to promote the uptake of Open Science.</p>
+<p><img alt="" src="https://lh7-us.googleusercontent.com/slidesz/AGV_vUfN4V8vAqPI7WvvLNyolSSlLZ8nYeKHQ0PIHInEm1B_u0ZWHIwUJcut5w5UbPPhgu4spk5VLVTNBVcyMMwMFOD7aXzKqGMmECU4YT5_ZxvXpRWYOMUDaprXCdtM310tN4Txg3BCT9sf8fMyrT-v9rRY5-AJqqKqeutQDpr3Zhkxng=s2048?key=HVeOlj_fJDZ5AEEcst6gsg" />Source: Martínez-Lavanchy, P.M., Hüser, F.J., Buss, M.C.H., Andersen, J.J., Begtrup, J.W. (2019). 'FAIR Principles'. In: Holmstrand, K.F., den Boer, S.P.A., Vlachos, E., Martínez-Lavanchy, P.M., Hansen, K.K. (Eds.) (2019). <em>Research Data Management</em> (eLearning course). doi: 10.11581/dtu:00000047</p>
+<p>There are in total 15 principles of a technical nature, from which derive a set of best practices which come into play throughout the research data lifecycle: from planning to collection, from analysis to sharing, and from preservation to reuse.</p>
+<p>For each letter of FAIR, sub-principles provide technical details. </p>
+<h4 id="findable">Findable<a class="headerlink" href="#findable" title="Permanent link">&para;</a></h4>
+<p><strong>Others can easily discover your data</strong></p>
+<blockquote>
+<p>F1. (meta) data are assigned a globally unique and persistent identifier
+  F2. data are described with rich metadata
+  F3. metadata clearly and explicitly include the identifier of the data it describes
+  F4. (meta)data are registered or indexed in a searchable resource</p>
+</blockquote>
+<h4 id="accessible">Accessible<a class="headerlink" href="#accessible" title="Permanent link">&para;</a></h4>
+<p><strong>It is clear who, when and how can access your data (does not mean open!)</strong></p>
+<blockquote>
+<p>A1. (meta)data are retrievable by their identifier using a standardized communications protocol
+      A1.1 the protocol is open, free, and universally implementable
+      A1.2 the protocol allows for an authentication and authorization procedure, where necessary
+  A2. metadata are accessible, even when the data are no longer available</p>
+</blockquote>
+<h4 id="interoperable">Interoperable<a class="headerlink" href="#interoperable" title="Permanent link">&para;</a></h4>
+<p><strong>Your data can be integrated with other data and/or they can be easily used and read by machines</strong></p>
+<blockquote>
+<p>I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
+  I2. (meta)data use vocabularies that follow FAIR principles
+  I3. (meta)data include qualified references to other (meta)data</p>
+</blockquote>
+<h4 id="reusable">Reusable<a class="headerlink" href="#reusable" title="Permanent link">&para;</a></h4>
+<p><strong>Your data can be reused by others in new research</strong></p>
+<blockquote>
+<p>R1. (Meta)data are richly described with a plurality of accurate and relevant attributes
+  R2. (Meta)data are released with a clear and accessible data usage license
+  R3. (Meta)data are associated with detailed provenance
+  R4. (Meta)data meet domain-relevant community standards</p>
+<p>[!NOTE]
+The FAIR principles can be understood as the requirements that research data and results should have in order to adhere to the model of Open Science, in order to make it possible to trace these data within scientific production and to facilitate reuse, when possible, in the creation of new knowledge. 
+You will often hear about FAIR Data, but it is also possible to apply the FAIR principles to other research outputs such as presentations, and publications. </p>
+</blockquote>
+<h3 id="open-data">Open Data<a class="headerlink" href="#open-data" title="Permanent link">&para;</a></h3>
+<p>tbd</p>
+<h3 id="research-data-management">Research Data Management<a class="headerlink" href="#research-data-management" title="Permanent link">&para;</a></h3>
+<p>tbd: questions to ask yourself to look at your research data </p>
+<h2 id="data-stewards">Data stewards<a class="headerlink" href="#data-stewards" title="Permanent link">&para;</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.ad660dcc.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
