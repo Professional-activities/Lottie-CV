@@ -5,8 +5,9 @@
 ## 📍 What is Research Data Management?
 
 A broad introduction to RDM including core values; RDM vocabulary; data steward
+ 
+[![Go to Lesson](https://img.shields.io/badge/Get-Started-black)](https://your-website-url/your-target-page) I  [![Download PDF](https://img.shields.io/badge/Download-PDF-red)](https://github.com/LottiePrv/RDM/blob/main/PDF%20-%201.%20A%20broad%20introduction%20to%20Research%20Data%20Management%20-%20Research%20Data%20Management%20and%20Open%20Science.pdf)
 
-Go to lesson I [![Download PDF](https://img.shields.io/badge/Download-PDF-red)](https://github.com/LottiePrv/RDM/blob/main/PDF%20-%201.%20A%20broad%20introduction%20to%20Research%20Data%20Management%20-%20Research%20Data%20Management%20and%20Open%20Science.pdf)
 
 
 ---

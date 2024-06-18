@@ -1,4 +1,4 @@
-
+## ==A broad introduction to Research Data Management==
 For a quick introduction, watch the following video: Ghent University Data Stewards (2020). [Knowledge clip: What is Research Data Management (RDM)?](https://www.youtube.com/watch?v=bbsLmy3Njv4)
 
 ## Why do we talk about research data?
