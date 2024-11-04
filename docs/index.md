@@ -2,7 +2,7 @@
 
 ![Image by Nate Williams on Unsplash](attachments/Pasted%20image%2020240612165538.png) Source: [Nate Williams on Unsplash](https://unsplash.com/fr/@primalimagery)
 
-## 📍 What is Research Data Management?
+## 📍 What is Research Data Management? in life
 
 A broad introduction to RDM including core values; RDM vocabulary; data steward
  
